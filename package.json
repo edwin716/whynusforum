@@ -1,0 +1,22 @@
+{
+  "name": "rengorum",
+  "version": "1.0.0",
+  "description": "Single-page forum application built in ReactJS and Django Rest Framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwin716/rengorum.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwin716/rengorum/issues"
+  },
+  "homepage": "https://github.com/edwin716/rengorum#readme",
+  "dependencies": {
+    "firebase": "^7.15.5"
+  }
+}
