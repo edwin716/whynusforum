@@ -9,23 +9,41 @@ class ContactCard extends Component {
     
 
     return (
-        
         <Card.Group>
         <Card>
           <Card.Content>
           <Card.Meta>
             <img src={logo} alt="Logo" />
-            </Card.Meta>
-            <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
+          </Card.Meta>
+          <br></br>
+          <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
           </Card.Content>
         </Card>
-
         <Card>
           <Card.Content>
           <Card.Meta>
             <img src={logo} alt="Logo" />
-            </Card.Meta>
-            <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
+          </Card.Meta>
+          <br></br>
+          <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
+          </Card.Content>
+        </Card>
+        <Card>
+          <Card.Content>
+          <Card.Meta>
+            <img src={logo} alt="Logo" />
+          </Card.Meta>
+          <br></br>
+          <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
+          </Card.Content>
+        </Card>
+        <Card>
+          <Card.Content>
+          <Card.Meta>
+            <img src={logo} alt="Logo" />
+          </Card.Meta>
+          <br></br>
+          <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
           </Card.Content>
         </Card>
         </Card.Group>
