@@ -1,6 +1,6 @@
 .ContactCard {
     height: 2px;
     width: 2px;
-    border-radius: .28571429rem .28571429rem 0 0 !important; 
-    
-  }
+    border-radius: 0.28571429rem 0.28571429rem 0 0 !important;
+
+}
