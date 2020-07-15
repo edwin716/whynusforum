@@ -8,6 +8,7 @@ import {PersistGate} from 'redux-persist/integration/react';
 import Loader from './components/loader';
 import store, {persistor} from './store';
 import HeaderContainer from './containers/header';
+import FooterContainer from './containers/footer';
 import ModalContainer from './containers/modal';
 import UserProfileContainer from './containers/userprofile';
 import UsersContainer from './containers/users';
@@ -37,6 +38,7 @@ ReactDOM.render(
             </Switch>
           </div>
           <ModalContainer />
+          <FooterContainer/>
         </Fragment>
       </BrowserRouter>
     </PersistGate>

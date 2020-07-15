@@ -24,3 +24,13 @@ a:-webkit-any-link:hover{
   text-decoration:underline;
   color: black;
 }
+
+.footer-background {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  height: 100px;
+  z-index: -1;
+  border-bottom: 5px solid;
+  border-color: orange;
+}

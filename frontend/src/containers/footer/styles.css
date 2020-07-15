@@ -1,0 +1,21 @@
+.footerContainer  {
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.footer  {
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,108 +1,109 @@
 import React, {Component} from 'react';
 import {Card} from 'semantic-ui-react';
-import logo from './fass.png';
+import logo from './biz.png';
 import logo1 from './computing.png';
-import logo2 from './biz.png';
-import logo3 from './med.png';
-import logo4 from './law.png';
-import logo5 from './engineering.jpg';
-import logo6 from './usp.jpg';
-import logo7 from './de.png';
-import logo8 from './science.png';
-// import {Link} from 'react-router-dom';
+import logo2 from './de.png';
+import logo3 from './engineering.jpg';
+import logo4 from './fass.png';
+import logo5 from './law.png';
+import logo6 from './med.png';
+import logo7 from './science.png';
+import logo8 from './usp.jpg';
 import './styles.css';
+
+// const ContactCard = () => (
 
 class ContactCard extends Component {
   render() {
     
 
     return (
-        <Card.Group>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      <Card.Group>
+        <Card href="http://www.nusbizadclub.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://www.fassclub.org/">FASS Club</a></Card.Header>
+          <Card.Header>Bizad Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://nuscomputing.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo1} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://nuscomputing.com/">Computing Club</a></Card.Header>
+          <Card.Header>Computing Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://sdemedia.wixsite.com/declub" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo2} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="http://www.nusbizadclub.com/">Bizad Club</a></Card.Header>
+          <Card.Header>Design & Environment Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="http://enginclub.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo3} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="http://www.nusmedsoc.com/">Medical Society</a></Card.Header>
+          <Card.Header>Engineering Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://www.fassclub.org/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo4} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://www.nuslawclub.com/">Law Club</a></Card.Header>
+          <Card.Header>FASS Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://www.nuslawclub.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo5} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="http://enginclub.com/">Engineering Club</a></Card.Header>
+          <Card.Header>Law Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="http://www.nusmedsoc.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo6} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://nususc.com/">University Scholars Club</a></Card.Header>
+          <Card.Header>Medical Society</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://www.facebook.com/nus.science.club/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo7} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://sdemedia.wixsite.com/declub">Design & Environment Club</a></Card.Header>
+          <Card.Header>Science Club</Card.Header>
           </Card.Content>
-        </Card>
-        <Card style={{width:"15%", height:"15%", textAlign: "center"}}>
+      </Card>
+      <Card href="https://nususc.com/" style={{width:"25%", height:"25%", textAlign: "center"}}>
           <Card.Content>
           <Card.Meta>
             <img src={logo8} alt="Logo" />
           </Card.Meta>
           <br></br>
-          <Card.Header><a href="https://www.facebook.com/nus.science.club/">Science Club</a></Card.Header>
+          <Card.Header>University Scholars Club</Card.Header>
           </Card.Content>
-        </Card>
-        </Card.Group>
-      
-    );
+      </Card>
+      </Card.Group>
+      );
+    }
   }
-}
 
 export default ContactCard;
+
